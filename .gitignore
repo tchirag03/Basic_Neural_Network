@@ -1,0 +1,19 @@
+.venv
+.git
+exp.ipynb
+__pycache__
+.vscode
+datasets\mnist_test.csv
+datasets\mnist_train.csv
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.swp
