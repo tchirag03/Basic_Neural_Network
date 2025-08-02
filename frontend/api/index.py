@@ -65,7 +65,7 @@ model_is_ready = False
 @app.on_event("startup")
 def load_model():
     global loaded_layer1, loaded_layer2, model_is_ready
-    model_file = "trained_model.npz"
+    model_file = "../trained_model.npz"
     try:
         with np.load(model_file) as data:
             architecture = data['architecture']
